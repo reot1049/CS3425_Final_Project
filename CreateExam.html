@@ -1,10 +1,28 @@
 <!DOCTYPE html>
 <html>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+  <link href="base.css" rel="stylesheet">
+
   <head>
   </head>
   <body>
-    <div>
-      <p>Hello</p>
+    <div id="createExam">
+      <form id="exam_name">
+          <label for="ename">Exam name:</label><br>
+          <input type="text" id="ename" name="ename"><br>
+
+        <!--
+        <label for="questions">How many questions will there be?</label><br>
+        <input for="questions" id="questions" name="questions"><br>
+        <label for="choices">How many choices would you like to create?</label><br>
+        <input for="choices" id="choices" name="choices"><br>
+        -->
+
+      </form>
+      <button id="question">Add Question</button>
+
+
     </div>
+    <script src="CreateExam.js"></script>
   </body>
 </html>
