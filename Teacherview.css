@@ -1,0 +1,29 @@
+h2 {
+  font-size: 100px;
+  text-align: center;
+}
+
+h3 {
+  font-size: 40px;
+  text-align: center;
+}
+
+#creation {
+  margin: auto;
+  text-align: center;
+}
+
+button {
+  color: #000000;
+	background-color: #FFCD00;
+	border-color: #000000;
+  color: white;
+  width: 200px;
+  height: 60px;
+  font-size: 20px;
+}
+
+button:hover{
+	color: #FFCD00;
+	background-color: #000000;
+}
