@@ -1,0 +1,14 @@
+.form-group{
+	margin: 10px;
+}
+
+.husky-button{
+	color: #000000;
+	background-color: #FFCD00;
+	border-color: #000000;
+}
+
+.husky-button:hover{
+	color: #FFCD00;
+	background-color: #000000;
+}
