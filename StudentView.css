@@ -1,0 +1,28 @@
+h2 {
+  font-size: 100px;
+  text-align: center;
+}
+
+#account, #exam {
+  margin: auto;
+  text-align: center;
+}
+
+#exam {
+  margin-top: 5px;
+}
+
+button {
+  color: #000000;
+	background-color: #FFCD00;
+	border-color: #000000;
+  color: white;
+  width: 200px;
+  height: 60px;
+  font-size: 20px;
+}
+
+button:hover{
+	color: #FFCD00;
+	background-color: #000000;
+}
