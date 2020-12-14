@@ -32,6 +32,14 @@ if(isset($_POST["student_name"])) {
         <input type="text" class="form-control" name="student_pass" id="student_pass" placeholder="Password">
       </div>
       <div class="form-group">
+        <label for="student_id">Student ID</label>
+        <input type="text" class="form-control" name="student_id" id="student_id" placeholder="Student ID">
+      </div>
+      <div class="form-group">
+        <label for="student_major">Student Major</label>
+        <input type="text" class="form-control" name="student_major" id="student_major" placeholder="Student Major">
+      </div>
+      <div class="form-group">
         <button type="submit" class="btn btn-primary husky-button">Submit</button>
       </div>
     </form>
