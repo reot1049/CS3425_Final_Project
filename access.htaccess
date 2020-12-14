@@ -1,0 +1,4 @@
+RewriteEngine on
+RewriteCond %{HTTP_HOST} !^classdb\.it\.mtu\.edu [NC]
+RewriteCond %{REQUEST_URI} ^/(~[^/]+)/CS3425_Final_Project/
+RewriteRule ^(.*)$ https://classdb.it.mtu.edu/%1/$1 [L,R]
