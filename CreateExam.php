@@ -7,14 +7,11 @@
   </head>
   <body>
     <div id="createExam">
-      <form id="exam">
-          <label for="ename">Exam name:</label><br>
-          <input type="text" id="ename" name="ename"><br>
+      <form method="post" action="CreateExamQuestions.php" id="question_num">
+          <label for="question_num">How many questions are there?</label><br>
+          <input type="number" id="question_num" min="1" max="9999" name="question_num"><br>
+          <input type="submit" value="submit">
       </form>
-      <button id="question">Add Question</button>
-
-
     </div>
-    <script src="CreateExam.js"></script>
   </body>
 </html>

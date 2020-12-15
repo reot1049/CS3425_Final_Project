@@ -11,7 +11,7 @@
       <h2>Welcome Professor!</h2>
       <h3>Class SQL101</h3>
         <div id="creation">
-          <a href="CreateExam.html"><button class="btn btn-primary husky-button">Create Exam</button></a>
+          <a href="CreateExam.php"><button class="btn btn-primary husky-button">Create Exam</button></a>
           <a href="CreateStudent.php"><button class="btn btn-primary husky-button">Create Student</button></a>
           <br>
           <form action="TeacherLogin.php" method="post">
