@@ -1,16 +1,9 @@
 <?php
-session_start();
-
-if(isset($_POST["student_name"])) {
-  if($_POST["student_name"] == "Alice" && $_POST["student_pass"] = "Alice123") {
-    $_SESSION["loggedin"] = true;
-    echo 'Student name: '.$_POST["student_name"].' password: '.$_POST["student_pass"].' has been created<br>' ;
-    echo "<a href='Teacherview.html'><button>Teacher Dashboard</button></a>";
+  session_start();
+  if(!$_SESSION["loggedin"]){
+    header("LOCATION:TeacherLogin.php");
     return;
-  } else {
-    echo "incorrect username and password";
   }
-}
 ?>
 
 <!DOCTYPE>
@@ -22,7 +15,7 @@ if(isset($_POST["student_name"])) {
 </head>
 <body>
   <div class="d-flex justify-content-center">
-    <form method=post action=CreateStudent.php>
+    <form method=post action="InsertStudent.php">
       <div class="form-group">
         <label for="student_name">Student Name</label>
         <input type="text" class="form-control" name="student_name" id="student_name" placeholder="Enter name">

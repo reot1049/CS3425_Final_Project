@@ -14,16 +14,8 @@ h3 {
 }
 
 button {
-  color: #000000;
-	background-color: #FFCD00;
-	border-color: #000000;
-  color: white;
+  margin: 10px;
+  padding: 20px;
   width: 200px;
   height: 60px;
-  font-size: 20px;
-}
-
-button:hover{
-	color: #FFCD00;
-	background-color: #000000;
 }
